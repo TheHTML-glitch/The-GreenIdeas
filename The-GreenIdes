@@ -1,0 +1,122 @@
+index.html 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Ideas - Explore Environmental Change</title>
+    <style>
+        body {
+            background-color: #4CAF50; /* Green background */
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white for readability */
+            border-radius: 15px;
+        }
+        .idea, .question {
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9em;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Green Ideas</h1>
+        <h2>Explore Environmental Change</h2>
+        
+        <nav>
+            <a href="#ideas">Ideas</a>
+            <a href="#questions">Questions</a>
+            <a href="#about">About This App</a>
+            <a href="#how-to">How You Can Help</a>
+            <a href="#thoughts">Final Thoughts</a>
+        </nav>
+        
+        <h3 id="ideas">Top Environmental Actions</h3>
+        <ul>
+            <li class="idea">Reduce, Reuse, Recycle: Make it a daily habit!</li>
+            <li class="idea">Plant Trees: They absorb CO2 and provide oxygen.</li>
+            <li class="idea">Use Public Transport: Cut down on individual car emissions.</li>
+            <li class="idea">Support Local: Buy from local farmers and businesses.</li>
+            <li class="idea">Reduce Water Usage: Fix leaks and use water-saving fixtures.</li>
+            <li class="idea">Switch to Renewable Energy: Opt for solar or wind power.</li>
+            <li class="idea">Minimize Meat Consumption: Consider a plant-based diet.</li>
+            <li class="idea">Volunteer for Clean-Ups: Participate in local environmental groups.</li>
+            <li class="idea">Educate Others: Share knowledge about climate change and its impacts.</li>
+            <li class="idea">Advocate for Policy Changes: Support legislation aimed at sustainability.</li>
+        </ul>
+
+        <h3 id="questions">Common Questions About Climate Change</h3>
+        <div class="question">
+            <strong>What is climate change?</strong><br>
+            Climate change refers to significant changes in global temperatures and weather patterns over time. While natural variations occur, human activities have accelerated these changes, leading to serious environmental impacts.
+        </div>
+        
+        <div class="question">
+            <strong>How can individuals make a difference?</strong><br>
+            Individuals can help by reducing waste, conserving energy, supporting renewable energy initiatives, and advocating for environmentally friendly policies in their communities.
+        </div>
+
+        <div class="question">
+            <strong>What are renewable energy sources?</strong><br>
+            Renewable energy sources include solar, wind, hydroelectric, and geothermal energy. These sources are sustainable alternatives to fossil fuels and play a crucial role in reducing greenhouse gas emissions.
+        </div>
+
+        <h3 id="about">About This App</h3>
+        <p>This educational app aims to raise awareness about environmental issues and encourage individuals to take action. It provides useful resources, practical ideas, and answers to common questions about climate change.</p>
+
+        <h3 id="how-to">How You Can Help</h3>
+        <p>You can contribute to a healthier planet by:</p>
+        <ul>
+            <li>Implementing the ideas listed above in your daily life.</li>
+            <li>Spreading awareness among your friends and family.</li>
+            <li>Participating in local environmental events and initiatives.</li>  
+            <li>Engaging with online communities focused on sustainability.</li>
+        </ul>
+
+        <h3 id="thoughts">Final Thoughts</h3>
+        <p>Every small action counts! Together, we can make a significant impact on our planet's health. Thank you for exploring Green Ideas!</p>
+
+        <footer>
+            <p>Thank you for visiting this web app! If you have any questions or need references, please email us at <a href="mailto:aadisreehari2021@gmail.com">info@greenideas.com</a>.</p>
+            <p>&copy; 2024 Green Ideas Initiative</p>
+        </footer>
+    </div>
+</body>
+</html>
